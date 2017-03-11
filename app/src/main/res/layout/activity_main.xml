@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="EventListener"
+            type="com.kincai.viewpagermultipic.MainActivity.EventListener"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{EventListener.scanPhoto}"
+            android:text="扫描相册" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{EventListener.display}"
+            android:text="浏览相册" />
+    </LinearLayout>
+
+</layout>
