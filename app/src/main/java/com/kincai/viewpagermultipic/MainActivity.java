@@ -18,6 +18,11 @@ import com.kincai.viewpagermultipic.databinding.ActivityMainBinding;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author KINCAI
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding mBinding;
